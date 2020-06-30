@@ -8,6 +8,8 @@ import 'package:triviaapp/features/number_trivia/domain/entities/number_trivia.d
 import 'package:triviaapp/features/number_trivia/domain/repositories/number_trivia_repository.dart';
 
 class GetConcreteNumberTrivia implements UseCase<NumberTrivia, Params> {
+
+
   final NumberTriviaRepository repository;
 
   GetConcreteNumberTrivia(this.repository);
